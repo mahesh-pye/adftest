@@ -1,0 +1,9 @@
+{
+	"name": "dataflowsoodaa",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aa81fd8e-9842-4cf2-a927-90979164f3c5",
+		"tenantId": "c968bb4a-176c-4cbe-bc64-7fba269cd526"
+	}
+}

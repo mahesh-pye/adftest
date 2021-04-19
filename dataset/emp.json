@@ -1,0 +1,23 @@
+{
+	"name": "emp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Emp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet 1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "emp.xls",
+				"folderPath": "EMP",
+				"container": "soodacontainer"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
